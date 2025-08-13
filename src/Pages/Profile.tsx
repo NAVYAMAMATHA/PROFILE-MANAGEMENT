@@ -97,10 +97,10 @@ const ProfilePage:React.FC=()=>{
     border:"1px solid",
     borderColor:"error.main",
     "&:hover":{
-      backgroundColor:"white",
-      color:"error.main",
-      borderColor:"error.main",
-    },
+        backgroundColor:"white",
+        color:"error.main",
+        border:"1px solid white",
+      },
     transition:"all 0.3s ease",
   }}onClick={()=>setOpen(true)}>Delete</Button>
   </Box>
