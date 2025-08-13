@@ -13,13 +13,22 @@ A simple, clean, and efficient way to create, update, and view user profiles —
 ### Tech Stack
 
 -React with TypeScript
+
+
 -Redux for State Management
+
+
 -Material UI for Styling
+
+
 -json-server for Mock Api calls
+
 
 ### How to Run 
 #### 1.Clone the Repository
 git clone https://github.com/NAVYAMAMATHA/profile-management-app.git
+
+
 cd profile-management-app
 
 #### 2.npm install
@@ -27,17 +36,25 @@ install all the dependencies requried to run.
 
 #### 3.Run the React server
 To run the server 
+
+
     - npm start
+
+    
 -it will open in localhost:3000 port
 
 #### 4.Run json-server
-to run json-server 
+to run json-server
+
+
     -npm run json-server (in another terminal).
+
+    
 -i chose localhost:4000 port to run json-server.
 
 
 ### Folder Structure
-
+```
 profile-management-app/
 │-- src/
 │   │-- app/              
@@ -52,3 +69,4 @@ profile-management-app/
 |--db.json
 │-- README.md
 │-- .gitignore
+```
